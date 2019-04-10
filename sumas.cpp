@@ -18,8 +18,6 @@ int main () {
    float suma_y;
    int lenx = 0;
    int leny = 0;
-    
-   cout <<  lenx << endl;
 
    filename = "valores_x.txt";
    x = leer(filename, &lenx);
@@ -78,3 +76,4 @@ float suma(float* arr, int len) {
     
     return suma;
 }
+
